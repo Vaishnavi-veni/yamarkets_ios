@@ -1308,7 +1308,7 @@ class _HomePageState extends State<HomePage> {
                                                       Icon(Icons.calendar_month, color: Color(0xfffac211)),
                                                       SizedBox(width: screenWidth * 0.02),
                                                       Text(
-                                                        DateFormat('dd-MM-yy').format(DateFormat('yyyy-MM-dd').parse(course['date'])),
+                                                        DateFormat('dd-MM-yy').format(DateFormat('yyyy-MM-dd').parse(course['date'])), // getting the date
                                                         textAlign: TextAlign.start,
                                                         style: TextStyle(
                                                           color: Color(0xfffac211),
